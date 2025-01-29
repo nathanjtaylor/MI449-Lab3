@@ -172,17 +172,19 @@ h2 {
 article{
     max-width: 760px;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .about-splash {
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     font-size: 4em;
+    margin-top: 100px;
 }
 
 .about-images {
     max-width: 760px;
-    margin: auto;
+    margin: 0 auto 50px;
     display: flex;
     justify-content: center;
     gap: 30px
@@ -191,8 +193,4 @@ article{
 h3 {
     margin: 60px auto 40px;
     font-size: 24px;
-}
-
-p{
-    margin: auto;
 }

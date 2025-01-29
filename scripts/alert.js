@@ -1,6 +1,6 @@
-let alerted = localStorage.getItem("alerted") === "true";
+let alerted = localStorage.getItem("alerted") === "false";
 
 if (!alerted) {
-    alert("My camera was accidentially damaged before taking off so some of the images may have defects.");
+    alert("⚠️ Notice: Primary imaging system sustained damage during launch preparations. Some visual data may be affected. All other operations in working order. -Sherman XII");
     localStorage.setItem("alerted", true);
 }
