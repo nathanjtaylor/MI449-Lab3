@@ -3,7 +3,6 @@ body {
     color: #1F2525;
     background: #EDF5FC;
     margin: 0;
-    text-align: center;
 }
 
 header {
@@ -16,6 +15,7 @@ header h1 {
     letter-spacing: -2px;
     margin: 0;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 nav {
@@ -167,4 +167,32 @@ h2 {
 #blogs ul li a img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+article{
+    max-width: 760px;
+    margin: auto;
+}
+
+.about-splash {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 4em;
+}
+
+.about-images {
+    max-width: 760px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px
+}
+
+h3 {
+    margin: 60px auto 40px;
+    font-size: 24px;
+}
+
+p{
+    margin: auto;
 }
