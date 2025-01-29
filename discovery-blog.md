@@ -6,6 +6,7 @@ title: Discovery!
 # Breaking News: Uncharted Planet Discovered in Alpha Centauri System!
 
 *Ship Log Date: March 15, 2053*
+
 *Location: Alpha Centauri System*
 
 EARTH! EARTH! EARTH! (Sorry for shouting, but this warrants excitement!)
