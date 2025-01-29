@@ -47,6 +47,11 @@ nav ul li a:hover {
     color: #006e93;
 }
 
+.active {
+    font-size: 22em; /* remove this */
+    color: black;
+}
+
 #image-slider {
     margin: auto;
     width: 674px;
@@ -55,37 +60,6 @@ nav ul li a:hover {
 h2 {
     text-align: left;
 }
-
-
-/* US Flag */
-#left-banner {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 119px;
-    height: 316px;
-    left: 114px;
-    top: 155px;
-    
-    border: 1px solid #000000;
-}
-
-#right-banner {
-    /* US Flag */
-
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 119px;
-    height: 316px;
-    left: 1190px;
-    top: 155px;
-
-    border: 1px solid #000000;
-
-}
-
-
 
 
 
