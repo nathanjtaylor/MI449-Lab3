@@ -1,7 +1,59 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: Interstellar Explorer
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<section id="image-slider">
+    <h2>My Favorite Sights</h2>
+
+        <!-- Following script from https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+        <img src="images/asteroid-belt.png" style="width:100%">
+        <div class="text">Milky Way Outer Asteroid Belt</div>
+        </div>
+
+        <div class="mySlides fade">
+        <img src="images/deep-space.png" style="width:100%">
+        <div class="text">Deep Space Between Milky Way and Alhpa Centauri</div>
+        </div>
+
+        <div class="mySlides fade">
+        <img src="images/jupiter-moons.png" style="width:100%">
+        <div class="text">The Many Moons of Jupiter</div>
+        </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        </div>
+
+        <script src="slide.js"></script>
+
+    <!-- Script block end -->
+</section>
+
+
+<!--- Unsure how to implement
+<img alt="United States banner" src="/images/banner.png" class="banner" id="left-banner"/>
+<img alt="United States banner" src="/images/banner.png" class="banner" id="right-banner"/>
+-->
+
+
+<section id="blogs">
+    <ul>
+        <li> <a href="/">  <img alt="blog cover image" src="/images/deep-asteroid.png"/> <div>Maintaining my chassis condition in an asteroid belt</div></a> </li>
+        <li> <a href="/">  <img alt="blog cover image" src="/images/distant-planet.png"/> <div>Exploring and giving a name to a newly discovered planet!</div></a> </li>
+    </ul>
+</section>
+
+
+
+
+
+
