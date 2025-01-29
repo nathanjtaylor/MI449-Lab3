@@ -146,6 +146,10 @@ h2 {
 
 /*script block end*/
 
+#blogs {
+    margin-bottom: 200px;
+    margin-top: 20px;
+}
 
 #blogs ul {
     display: flex;
@@ -166,7 +170,9 @@ h2 {
     height: 248px;
     display: flex;
     flex-direction: column;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 
 #blogs ul li a div{
     background: linear-gradient(91.22deg, #0A3161 1.04%, #1757A6 99.27%);
@@ -180,5 +186,6 @@ h2 {
 }
 
 #blogs ul li a img{
-    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
